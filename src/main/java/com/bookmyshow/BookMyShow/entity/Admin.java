@@ -23,8 +23,9 @@ public class Admin {
 	private String adminPassword;
 	
 	@OneToMany
+	private List<TheatreAdmin> theatreAdmin;
+	@OneToMany
 	private List<User> user;
-	
 	@OneToMany
 	private List<Movies> movies;
 }

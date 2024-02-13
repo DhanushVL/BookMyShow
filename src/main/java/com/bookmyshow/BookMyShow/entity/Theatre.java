@@ -22,7 +22,6 @@ public class Theatre {
 	
 	@OneToMany
 	private List<Screen> screen;
-	
 	@OneToMany
 	private List<Movies> movies;
 }

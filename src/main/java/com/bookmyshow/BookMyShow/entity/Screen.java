@@ -21,7 +21,7 @@ public class Screen {
 	private int screenId;
 	private String screenName;
 	
-	@OneToMany
+	@OneToOne
 	private List<Movies> movies;
 	@OneToMany
 	private List<Seats> seats;
